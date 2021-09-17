@@ -1,0 +1,16 @@
+.forma{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    height: 2.5rem;
+
+}
+
+form{
+    padding: .5rem;
+
+}
+input{
+    margin: .2rem;
+    padding: .2rem;
+}
