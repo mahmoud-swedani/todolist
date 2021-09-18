@@ -5,9 +5,10 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #dddddd21;
   text-align: center;
   padding: 8px;
+  color: #000;
 }
 
 tr:nth-child(even) {
@@ -25,6 +26,6 @@ tr:nth-child(even) {
 }
 
 th{
-  background-color: #790696a4;
+  background-color: #7906965d;
   color: white;
 }

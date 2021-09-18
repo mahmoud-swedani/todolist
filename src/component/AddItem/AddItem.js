@@ -22,10 +22,13 @@ export default class Add extends Component {
     render() {
         return (
             <div className="forma"> 
+                <h2>Add Data</h2>
+
                 <form onSubmit={this.handelSubmit}>
+
                     <input id="name" type="text" placeholder="Enter your text: " onChange={this.handelChange} value={this.state.name} />
                     <input id="age" type="number" placeholder="Enter your number: " onChange={this.handelChange} value={this.state.age} />
-                    <input type="submit"  value="submit" />
+                    <input className="subbtn" type="submit"  value="submit" />
                     </form>
             </div>
 

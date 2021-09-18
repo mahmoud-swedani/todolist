@@ -28,9 +28,10 @@ export default class App extends Component {
   } 
   render() {
     return (
-      <div className="body">
+      <div className="bodys">
         <div className="container">
             <h1>ToDo List </h1>
+            <hr /><br />
             <div className="row">
                 <div className="a">
                   <Add addItems={this.addItem}/>

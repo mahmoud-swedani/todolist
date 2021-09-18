@@ -1,25 +1,32 @@
-.body{
+.bodys{
   width: 100%;
   height: 100vh;
-  background-color: #20186b;
+  background-color: #460d74b7;
+  text-align: center;
+  
 }
 .container{
   width: 75%;
-  margin: auto;
-  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+
 }
 
 
 .row{
   display: flex;
   flex-direction: row ;
-  justify-content: center;
+  
+  justify-content: space-between;
   
 }
 
 .row .a{
   width: 40%;
+
 }
+
 .row .b{
-  width: 60%;
+  width: 50%;
+
 }

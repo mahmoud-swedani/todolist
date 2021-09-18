@@ -15,6 +15,7 @@ export default class View extends Component {
 
         return (
             <div className="table">
+                <h2>View Data</h2>
                 <table>
                 <tbody>
                     <tr>
