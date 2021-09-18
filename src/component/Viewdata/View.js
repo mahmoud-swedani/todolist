@@ -2,13 +2,15 @@ import React, { Component } from 'react'
 import './View.css'
 export default class View extends Component {
     render() {
-        const {data} =this.props;
-        const data_to =data.map(u=> 
-            <tr key={Math.random()}>
+        const {data, deleteItems} =this.props;
+        const length = data.length
+        const data_to = length ? (data.map(u=> 
+            <tr key={u.id}>
                 <td>{u.name}</td>
                 <td>{u.age}</td>
+                <td className="clickDe" onClick={() => deleteItems(u.id)}>&times;</td>
             </tr>
-            );
+            )):(<p>no iten in DB</p>);
 
 
         return (
@@ -17,7 +19,8 @@ export default class View extends Component {
                 <tbody>
                     <tr>
                         <th>Name</th>
-                        <th>age</th>
+                        <th>Age</th>
+                        <th>Action</th>
                     </tr>
                     {data_to}
                 </tbody>
