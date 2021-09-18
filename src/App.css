@@ -1,7 +1,25 @@
-
+.body{
+  width: 100%;
+  height: 100vh;
+  background-color: #20186b;
+}
 .container{
-  width: 50%;
+  width: 75%;
   margin: auto;
   text-align: center;
-  margin-top: 25vh;
+}
+
+
+.row{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  
+}
+
+.row .a{
+  width: 40%;
+}
+.row .b{
+  width: 60%;
 }

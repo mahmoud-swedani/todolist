@@ -6,7 +6,7 @@ table {
 
 td, th {
   border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
@@ -18,4 +18,13 @@ tr:nth-child(even) {
 
   text-align: center;
   border: 1px solid #000;
+}
+.clickDe{
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+th{
+  background-color: #790696a4;
+  color: white;
 }
